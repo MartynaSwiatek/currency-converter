@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.form__fieldset {
+    max-width: 400px;
+    border: 1px solid hsl(347, 100%, 95%);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 100%;
+    background-color:hsl(0, 28%, 87%);
+}
+
+.form__legend {
+    background-color: hsl(352, 86%, 77%);
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+}
+
+.form__field {
+    border: 1px solid hsl(0, 100%, 75%);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.form__labelText {
+    margin-right: 5px;
+    width: 100%;
+    max-width: 150px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.form__button {
+    padding: 10px;
+    width: 39%;
+    border: none;
+    background-color: hsl(356, 100%, 87%);
+    color: hsl(0, 0%, 3%);
+    border-radius: 5px;
+    font-size: 110%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.form__button:hover {
+    background-color: hsl(345, 31%, 64%);
+}
+
+.form__button:active {
+    background-color: hsl(0, 27%, 54%);
+}
+
+.footer {
+    padding: 1px;
+    text-align: center;
+    margin-top: 1px;
+    font-weight: normal;
+    font-size: smaller;
+}
