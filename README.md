@@ -1,7 +1,7 @@
 # Converts the exchange rate of six selected currencies (PLN, EUR, DKK, SEK, USD or CHF).
 
 ## Demo
-
+https://martynaswiatek.github.io/currency-converter/
 
 ## Used features
 HTML, CSS, normalize, JavaScript (ES6+), BEM convention, Git.
