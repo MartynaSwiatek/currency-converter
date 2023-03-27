@@ -1,11 +1,11 @@
 # Converts the exchange rate of six selected currencies (PLN, EUR, DKK, SEK, USD or CHF).
-Demo
+## Demo
 
 
-Used features
+## Used features
 HTML, CSS, normalize, JavaScript (ES6+), BEM convention, Git.
 
-Additional information
+### Additional information
 Exchange rates based on data from 2023-03-08:
 
 1. const rateEUR = 4.70;
