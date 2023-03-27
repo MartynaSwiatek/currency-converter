@@ -1,5 +1,6 @@
 # Converts the exchange rate of six selected currencies (PLN, EUR, DKK, SEK, USD or CHF).
 
+![background](https://raw.githubusercontent.com/MartynaSwiatek/currency-converter/e68f678f0676f07e541b173e26813cfdb08cc789/images/background.png)
 ## Demo
 https://martynaswiatek.github.io/currency-converter/
 
