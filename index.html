@@ -6,26 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>currency converter</title>
+    <link rel="icon" href="images/icon.png">
     <meta property="og:image" content="images/background.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
     <link
-        href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat+Alternates:wght@400;500&family=Montserrat:wght@400;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Montserrat+Alternates:wght@400;500&display=swap"
         rel="stylesheet">
     <script defer src="js/script.js"></script>
 </head>
 
-<body>
+<body class="body">
+    <div class="container"></div>
     <form class="form js-form">
         <fieldset class="form__fieldset">
             <legand class="form__legend">Kalkulator walutowy</legand>
             <p>
                 <label>
-                    <span class="form__labelText">Wybierz waultę:
+                    <span class="form__labelText"> Wpisz walutę:
 
                     </span>
                     <select name="currency" class="form__field js-currency">
@@ -46,33 +47,28 @@
                         placeholder="kwota w PLN">
                 </label>
             </p>
-        
-                <label>
-                    
-                
+
+            <label>
+
+
                 <span="form_labelText">
-                    Wynik:
+                    <b>Wynik:</b>
                     </span>
                     <p class="form__field js-result" readonly> </p>
-                </label>
+            </label>
             <div>
                 <p>
                     <button class="form__button js-button">Przelicz</button>
 
-                        <button class="form__button js-reset" type="reset">Wyczyść</button>
+                    <button class="form__button js-reset" type="reset">Wyczyść</button>
 
                 </p>
             </div>
-        
+            <p class="form__footer">
+                Kurs według Tab. nr 047/A/NBP/2023 z dnia 2023-03-08
+            </p>
         </fieldset>
     </form>
-    <fotter class="footer">
-        <p>
-            Kurs według Tab. nr 047/A/NBP/2023 z dnia 2023-03-08
-        </p>
-    </fotter>
-
-
 
 </body>
 
