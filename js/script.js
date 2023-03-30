@@ -1,6 +1,5 @@
 {
     const calculateResult = (amount, currency) => {
-
         const rateEUR = 4.70;
         const rateDKK = 0.63;
         const rateSEK = 0.41;
@@ -35,7 +34,6 @@
 
         const amountElement = document.querySelector(".js-amount");
         const currencyElement = document.querySelector(".js-currency");
-
 
         const amount = +amountElement.value;
         const currency = currencyElement.value;
